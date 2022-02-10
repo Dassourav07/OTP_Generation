@@ -1,1 +1,2 @@
 # OTP_Generation
+ We have a random package in Python that allows us to generate random data. There is a random function in this module. random() returns an integer between 0 and 1, including the value 0 [0, 1). Let's look at how to use the random() function first. We may construct a random string of the necessary length by generating a string that comprises all digits and alphanumeric characters and then adding them all to a list. Make your own experiment.
