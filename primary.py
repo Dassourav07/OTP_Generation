@@ -1,7 +1,6 @@
-try:
-    from tkinter import *
+from tkinter import *
 except ImportError:
-    from Tkinter import *
+from tkinter import *
 import time
 from otpgen import RandPass
 #=====================================METHODS===================================
