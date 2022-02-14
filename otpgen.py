@@ -1,8 +1,8 @@
 # to generate a password with specific restrictions: 
 # nO numbers or special characters in 1st position
-    from string import ascii_letters, digits, punctuation, join
+from string import ascii_letters, digits, punctuation, join
 except ImportError:
-    from string import ascii_letters, digits, punctuation
+from string import ascii_letters, digits, punctuation
 from random import choice, sample, randint
 # specific imports to make this small, fast, efficient
 
