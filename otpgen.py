@@ -1,14 +1,11 @@
-# to generate a password with specific restrictions: \
-# NO numbers or special characters in 1st position
-# NO space at the end of the string
-try:
+# to generate a password with specific restrictions: 
+# nO numbers or special characters in 1st position
     from string import ascii_letters, digits, punctuation, join
 except ImportError:
     from string import ascii_letters, digits, punctuation
 from random import choice, sample, randint
 # specific imports to make this small, fast, efficient
 
-#=====================================METHODS===================================
 def isEven(integer):
     """Return Boolean: True if input is even, False if not."""
     return integer % 2 == 0
